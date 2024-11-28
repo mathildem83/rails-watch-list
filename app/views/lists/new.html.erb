@@ -1,0 +1,8 @@
+<div class="container border-top">
+  <h1 class="text-center pt-3">Nouvelle liste</h1>
+
+  <%= simple_form_for(@list) do |f| %>
+    <%= f.input :name, label: "Nom de la liste"%>
+    <%= f.submit "Valider", class: "btn btn-primary " %>
+  <% end %>
+</div>

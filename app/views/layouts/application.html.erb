@@ -11,6 +11,15 @@
   </head>
 
   <body>
+    <nav class="navbar">
+      <div class="container-fluid">
+        <%= image_tag "logo.png", width: 70 %>
+        <ul>
+          <li class="align-middle"><a href="<%= root_path %>">Home</a></li>
+        </ul>
+      </div>
+    </nav>
+
     <%= yield %>
   </body>
 </html>
