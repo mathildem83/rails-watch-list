@@ -13,7 +13,7 @@ Movie.destroy_all
 puts "Creating movies..."
 Movie.create(title: "Titanic", overview: "101-year-old Rose DeWitt Bukater tells the story of her life aboard the Titanic.", poster_url: "https://image.tmdb.org/t/p/original/9xjZS2rlVxm8SFx8kPC3aIGCOYQ.jpg", rating: 7.9)
 puts "Created Titanic"
-Movie.create(title: "Arcane", overview: "Championnes de leurs villes jumelles et rivales, deux sœurs se battent dans une guerre où font rage des technologies magiques et des perspectives diamétralement opposées.", poster_url: "https://https://image.tmdb.org/t/p/original/ypS7R36Vjcn51zZsXsta5onnaCo.jpg", rating: 7)
+Movie.create(title: "Arcane", overview: "Championnes de leurs villes jumelles et rivales, deux sœurs se battent dans une guerre où font rage des technologies magiques et des perspectives diamétralement opposées.", poster_url: "https://image.tmdb.org/t/p/original/9osrWsk67k0ys9zeYwiMhG8mlr6.jpg", rating: 7)
 puts "Created Arcane"
 Movie.create(title: "Word of Honor", overview: "Après avoir perdu tous les membres de son clan, Zhou Zi-Shu décide de renoncer à sa position de chef des assassins au service du prince Jin et de vivre le reste de sa vie sans se soucier des autres. Mais le destin en décide autrement et il se retrouve à nouveau mêlé aux intrigues politiques le jour où sa route croise celle du mystérieux Wen Ke-Xing.", poster_url: "https://image.tmdb.org/t/p/original/op0ZXBZodAc12CVqEN55KxD0FYe.jpg", rating: 10)
 puts "Created Word of Honor"
